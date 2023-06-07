@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="src/reset.css" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Portifólio</title>
+  </head>
+
+  <body>
+    <main class="cartao">
+      <section class="meus-dados">
+        <img class="foto" src="./src/imagens/Eu.jpg" alt="Foto do Perfil" />
+
+        <h1 class="nome">Samuel Maciel Dutra</h1>
+        <h2 class="cargo">Desenvolvedor frontend Júnior</h2>
+      </section>
+
+      <section class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/imagens/sobre.gif" alt="icone de sobre mim" />
+          </li>
+
+          <li class="aba" id="minhas-redes">
+            <img src="./src/imagens/coracao.gif" alt="icone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacoes selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>Oi! meu nome é Samuel Maciel Dutra, Seja bem-vindo(a)!</p>
+              <p>
+                Sou uma pessoa apaixonada pela programação. Sempre tive o sonho
+                de trabalhar com programação e atualmente estou estudando
+                <span>HTML, CSS e JavaScript</span>, para realizar esse sonho!
+              </p>
+            </div>
+          </div>
+
+          <div class="informacoes" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas Redes</h3>
+
+            <ul class="redes-sociais">
+              <li>
+                <a href="https:www.google.com" target="_blank" class="curriculo"
+                  >Curriculo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/samuel-dutra-13551723a/"
+                  target="_blank"
+                  class="linkedin"
+                  >Linkedin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/SamukaMaciell"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
